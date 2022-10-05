@@ -60,6 +60,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <LinkStatus>true</LinkStatus>
+      <AdditionalOptions>/WHOLEARCHIVE:StaticLib.lib %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>../x64/Debug</AdditionalLibraryDirectories>
     </Link>
     <ProjectReference />
   </ItemDefinitionGroup>
@@ -78,6 +80,8 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
+      <AdditionalOptions>/WHOLEARCHIVE:StaticLib.lib %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>../x64/Release</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
